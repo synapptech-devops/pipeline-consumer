@@ -57,6 +57,7 @@ function App() {
         </section>
         <div className="section-heading">
           <h2>API connection</h2>
+          <p>Jon Was Here!</p>
           <button
             onClick={() => {
               setLoading(true);
