@@ -14,8 +14,8 @@ permissions:
 
 jobs:
   generate:
-    uses: synapptech-devops/pipelines/.github/workflows/generate-environment-manifest.yml@v1
+    uses: synapptech-devops/pipelines/.github/workflows/generate-environment-manifest.yml@v2
     with:
-      pipeline_ref: v1
+      pipeline_ref: v2
     secrets:
       PIPELINE_TOKEN: ${{ secrets.PIPELINE_TOKEN }}
